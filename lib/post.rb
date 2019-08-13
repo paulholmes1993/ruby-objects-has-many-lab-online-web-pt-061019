@@ -7,7 +7,7 @@ class Post
     @title = title
     title << @@all?
   end
-  
+
   end
 
   def author_name
