@@ -5,6 +5,9 @@ class Post
 
   def initialize(title)
     @title = title
+    title << @@all?
+  end
+  
   end
 
   def author_name
